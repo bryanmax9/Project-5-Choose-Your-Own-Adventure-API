@@ -2,15 +2,15 @@
 
 # AND101 Project 5 - Choose Your Own API
 
-Submitted by: **Your Name Here**
+Submitted by: **Bryan Tineo**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **fill in description (Example: "An app that displays a random character from the Game of Thrones API")**
+**Nasa: Mars Rover Photos of Mars** is an android app that **provides an easy way to interact with Nasa's API by allowing users to easily access one by one each photo Mars Rover does on Mars throughout its trip🌌🔭🌑**
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+If I had to describe this project in three (3) emojis, they would be: **📱🔭🌌**
 
 ## Application Features
 
@@ -18,9 +18,9 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] Make an API call to an API of your choice using AsyncHTTPClient
-- [ ] Display at least three (3) pieces of data for each API entry retrieved
-- [ ] A working Button requests a new API entry and updates the data displayed
+- [x] Make an API call to an API of your choice using AsyncHTTPClient
+- [x] Display at least three (3) pieces of data for each API entry retrieved
+- [x] A working Button requests a new API entry and updates the data displayed
 
 The following STRETCH features are implemented:
 
@@ -34,15 +34,15 @@ The following EXTRA features are implemented:
 
 ## API Choice
 
-My chosen API for this project is **enter here**.
+My chosen API for this project is **[Nasa API](https://api.nasa.gov/)**.
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='http://i.imgur.com/e5ba6uE.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with [ScreenToGif](https://www.screentogif.com/)**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -51,11 +51,11 @@ GIF created with **your chosen GIF tool**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+- I learned how to Fetch API's an make an interactive app by using json data retrieved from the internet. Also, I learned how to setup the files in order to accept internet requests from http and https, so i had to add a "network_security_config.xml" on "res > xml" folder in order to accept http request and than i had to modify the "AndroidManifest.xml" and add "android:networkSecurityConfig="@xml/network_security_config" on the "<application>" tag in order to point to that configuration. I learned a lot on this project that would be difficult to writte all, but the most interesting part was to make my app to accept http request.
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2024** **Bryan Tineo**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
